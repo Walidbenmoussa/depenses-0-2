@@ -17,6 +17,7 @@ db.generate_mapping(create_tables=True)
     
                
 
+ui.add_head_html('<meta name="viewport" content="width=device-width, initial-scale=1.0">')
      
 @ui.page('/')
 def main():
